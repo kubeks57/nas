@@ -1,0 +1,16 @@
+pkg update && -upgrade
+pkg install python
+pkg install pip
+apt-get update
+pkg install openssl
+pkg install python
+pip install npyscreen
+pip install --upgrade pip
+termux-setup-storage
+pip install telethon
+pip install async_generator
+pip install colorama
+pip install bs4
+pip install requests
+pip install asyncio
+pip install faker
